@@ -72,7 +72,7 @@ app.get('/photos', function(req, res) {
 // to turn clockwise
 app.get('/clockwise', function(req, res) {
    client.clockwise(0.5);
-   console.log("Drone Turning Clockwise");
+   console.log("Drone Turning Joe Clockwise");
 });
 
 app.listen(3000, function () {
